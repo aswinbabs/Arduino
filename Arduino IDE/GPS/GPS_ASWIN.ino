@@ -22,7 +22,7 @@ if(m.available())
       lon=m.readStringUntil(',');
       Serial.print("Lat : ");
       Serial.print(lat);
-      Serial.print("Lon : ");
+      Serial.print("Lon : ");      
       Serial.println(lon);
       }
     
